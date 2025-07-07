@@ -1,10 +1,8 @@
 package com.joy.learn_spring.game;
 
-
-
-public class Mariogame implements GamingConsole {
+public class SuperContraGame implements GamingConsole {
     public void display() {
-        System.out.println("Mario Game");  
+        System.out.println("Super Contra Game");  
     }
 
     public void up() {

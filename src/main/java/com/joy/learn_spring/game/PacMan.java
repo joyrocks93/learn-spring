@@ -1,12 +1,12 @@
 package com.joy.learn_spring.game;
 
+import org.springframework.stereotype.Controller;
 
-
-public class Mariogame implements GamingConsole {
+@Controller
+public class PacMan implements GamingConsole {
     public void display() {
-        System.out.println("Mario Game");  
+        System.out.println("PacMan Game");  
     }
-
     public void up() {
         System.out.println("Jump");
     }
