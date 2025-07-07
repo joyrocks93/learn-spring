@@ -2,7 +2,7 @@ package com.joy.learn_spring.game;
 
 public class SuperContraGame implements GamingConsole {
     public void display() {
-        System.out.println("Super Contra Game");  
+        System.out.println("Super Contra Game");
     }
 
     public void up() {

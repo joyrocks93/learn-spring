@@ -5,8 +5,9 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class PacMan implements GamingConsole {
     public void display() {
-        System.out.println("PacMan Game");  
+        System.out.println("PacMan Game");
     }
+
     public void up() {
         System.out.println("Jump");
     }

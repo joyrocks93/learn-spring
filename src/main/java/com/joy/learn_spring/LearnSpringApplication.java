@@ -14,9 +14,9 @@ import com.joy.learn_spring.game.SuperContraGame;
 public class LearnSpringApplication {
 
 	public static void main(String[] args) {
-		ConfigurableApplicationContext context=SpringApplication.run(LearnSpringApplication.class, args);
-		//Mariogame game = new Mariogame();
-		//SuperContraGame game = new SuperContraGame();
+		ConfigurableApplicationContext context = SpringApplication.run(LearnSpringApplication.class, args);
+		// Mariogame game = new Mariogame();
+		// SuperContraGame game = new SuperContraGame();
 		// GamingConsole game = new PacMan();
 		// GameRunner runner= new GameRunner(game);
 		GameRunner runner = context.getBean(GameRunner.class);
